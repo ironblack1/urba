@@ -9,7 +9,7 @@ class InicioSesion extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color.fromRGBO(234, 207, 177, 1),
       appBar: AppBar(
-        title: const Text('Inicio sesion'),
+        title: const Text('Pantalla Inicio sesion'),
       ),
       body: const Center(
                       
