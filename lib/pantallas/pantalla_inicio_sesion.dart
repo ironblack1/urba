@@ -26,7 +26,8 @@ class InicioSesion extends StatelessWidget {
                                                             color: Color.fromRGBO(113, 78, 41, 1),
                                                             fontSize: 90,
                                                             fontFamily: 'CormorantGaramond',
-                                                            fontWeight: FontWeight.bold  
+                                                            fontWeight: FontWeight.bold,
+                                                              
                                                  ) 
                                           ),
                                         ],
@@ -167,6 +168,7 @@ class InicioSesion extends StatelessWidget {
                                                                                      color: Colors.black,
                                                                                      fontSize: 30,
                                                                                      fontFamily: 'JustMeAgainDownHere-Regular',
+                                                                                     decoration: TextDecoration.underline
                                                                               ) 
                                                                       ),
                                                                           
