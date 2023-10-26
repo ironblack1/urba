@@ -28,7 +28,7 @@ class _VistaHome extends StatelessWidget {
               child:  Center(
                    child: Column(
                         children: [
-                                const SizedBox(height: 10),
+                                const SizedBox(height: 10), 
                                 const Row(
                                         children: [
                                           Padding(padding: EdgeInsets.symmetric(horizontal: 5)),
@@ -62,14 +62,18 @@ class _VistaHome extends StatelessWidget {
                                                           border: Border.all(
                                                                     color: Colors.black,
                                                                     width: 2.0
-                                                            )
+                                                           ),
+                                                           image: const DecorationImage(
+                                                                          image: AssetImage('assets/fotos/foto-urba.jpg' ), 
+                                                                          fit: BoxFit.cover
+                                                           ),
                                               ), 
                                               height: 580, 
                                               width: 450, 
-                                              child: ClipRRect(
-                                                        borderRadius: BorderRadius.circular(20.0),
-                                                        child: Image.asset('assets/fotos/foto-urba.jpg', fit: BoxFit.cover, )
-                                              )
+                                              //child: ClipRRect(
+                                              //          borderRadius: BorderRadius.circular(20.0),
+                                              //          child: Image.asset('assets/fotos/foto-urba.jpg', fit: BoxFit.cover, )
+                                              //)
                                       ),
                                 const SizedBox(height: 33),
                                       ElevatedButton(

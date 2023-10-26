@@ -29,5 +29,13 @@ flutter:
       fonts:
         - asset: assets/fonts/CormorantGaramond-Regular.ttf
 
+    - family: MarkoOne-Regular
+      fonts:
+        - asset: assets/fonts/MarkoOne-Regular.ttf
+
+    - family: JustMeAgainDownHere-Regular
+      fonts:
+        - asset: assets/fonts/JustMeAgainDownHere-Regular.ttf  
+
   assets:
     - assets/fotos/

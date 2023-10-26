@@ -2,6 +2,7 @@
 
 
 
+import 'package:flutter_urbacity/pantallas/pantalla_cambiar_contrasena.dart';
 import 'package:flutter_urbacity/pantallas/pantalla_home.dart';
 import 'package:flutter_urbacity/pantallas/pantalla_inicio_sesion.dart';
 import 'package:go_router/go_router.dart';
@@ -19,6 +20,11 @@ final ruta = GoRouter(
       path: '/inicio-sesion',
       name: 'pantalla2',                   
       builder: (context, state) => const InicioSesion(),
+    ),
+    GoRoute(
+      path: '/cambiar-contrasena',
+      name: 'pantalla3',                   
+      builder: (context, state) => const CambiarContrasena(),
     ),
 
   ],
